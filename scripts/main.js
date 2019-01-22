@@ -12,9 +12,12 @@ window.onload = () => {
       ? sign.style.color = 'blue' 
       : sign.style.color = 'red';
     });
-
-    par = document.getElementsByClassName('paragraph');
     
+    // First way to change elements of class
+    // par = document.querySelectorAll('.paragraph');
+    
+    // Second way to change elements of class
+    par = document.getElementsByClassName('paragraph');
     for (var i = 0; i < par.length; i++) {
       par[i];
     }
@@ -22,6 +25,6 @@ window.onload = () => {
     par[0].style.color = 'yellow';
     par[1].style.color = 'green';
     par[2].style.color = 'purple';
-    par[3].style.color = 'gray';
+    par[3].style.color = 'white';
 
 }
