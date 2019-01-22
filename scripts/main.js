@@ -1,11 +1,27 @@
 window.onload = () => {
-    
-    var sign = document.getElementById('scratch_cat');
-    
-    sign.style.color = 'red';
+  
+  var sign,
+      par;
 
-    sign.addEventListener('mouseover', function() {
-        sign.style.color == 'red' ? sign.style.color = 'blue' : sign.style.color = 'red';
+  sign = document.getElementById('scratch_cat');
+   
+  sign.style.color = 'red';
+
+  sign.addEventListener('mouseover', function() {
+    sign.style.color == 'red' 
+      ? sign.style.color = 'blue' 
+      : sign.style.color = 'red';
     });
+
+    par = document.getElementsByClassName('paragraph');
     
+    for (var i = 0; i < par.length; i++) {
+      par[i];
+    }
+
+    par[0].style.color = 'yellow';
+    par[1].style.color = 'green';
+    par[2].style.color = 'purple';
+    par[3].style.color = 'gray';
+
 }
