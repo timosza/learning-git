@@ -19,3 +19,15 @@ div.cat > img {
   width: 600px;
   height: 557px;
 }
+
+.scratch_cat {
+  font-family: 'Comic Sans', sans-serif;
+  font-size: 4em;
+  text-align: center;
+  margin-top: 24px;
+}
+
+@font-face {
+  font-family: 'Comic Sans';
+  src: url(../fonts/comic.ttf);
+ }
