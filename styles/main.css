@@ -13,5 +13,9 @@ div.cat {
   display: flex;
   justify-content: center;
   align-items: center;
-   
+}
+
+div.cat > img {
+  width: 600px;
+  height: 557px;
 }
